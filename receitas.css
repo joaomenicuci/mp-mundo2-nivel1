@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    overflow-y: auto;
+}
+
+.menu div{
+    background-color: #e0e0e0;
+    margin-right:50px;
+    margin-left:50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.menu div img{
+    width: auto;
+    height: 200px;
+}
+
+.menu ul, ol, li{
+    flex-direction: column;
+    list-style-type: disc;
+    gap: 3px;
+    text-align: left;
+}
+
+ol li{
+    list-style: decimal;
+}
+
+
+hr {
+    border: solid;
+    width: 100%;
+    position: relative;
+  }
