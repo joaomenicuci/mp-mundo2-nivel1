@@ -20,6 +20,10 @@ header{
     color: white;
 }
 
+main{
+    overflow-y: auto;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -69,4 +73,8 @@ a {
 
 a:hover{
     color: #a0a0a0;
+}
+
+#div-rua{
+    display: block;
 }
